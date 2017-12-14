@@ -462,6 +462,6 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("ember-decorator-demo2/app")["default"].create({"name":"ember-decorator-demo2","version":"0.0.0+eaceee3d"});
+  require("ember-decorator-demo2/app")["default"].create({"name":"ember-decorator-demo2","version":"0.0.0+9c6f6606"});
 }
 //# sourceMappingURL=ember-decorator-demo2.map

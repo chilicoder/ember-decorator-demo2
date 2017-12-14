@@ -46,7 +46,7 @@ module.exports = function (environment) {
 
   if (environment === 'docs') {
     // here you can enable a production-specific feature
-    ENV.rootURL = '/chilicoder/ember-decorator-demo2';
+    ENV.rootURL = '/ember-decorator-demo2/';
   }
 
   return ENV;
