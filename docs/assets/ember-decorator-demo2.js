@@ -438,7 +438,7 @@ define("ember-decorator-demo2/templates/index", ["exports"], function (exports) 
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  exports.default = Ember.HTMLBars.template({ "id": "suQpbvmP", "block": "{\"symbols\":[],\"statements\":[[0,\"Property: \"],[1,[18,\"one\"],false],[0,\"\\n\"],[6,\"div\"],[3,\"action\",[[19,0,[]],\"handleClick\"]],[7],[0,\"Aliased property: \"],[1,[18,\"two\"],false],[8],[0,\"\\n\\nobserves property \"],[1,[18,\"three\"],false]],\"hasEval\":false}", "meta": { "moduleName": "ember-decorator-demo2/templates/index.hbs" } });
+  exports.default = Ember.HTMLBars.template({ "id": "u1jEf4X/", "block": "{\"symbols\":[],\"statements\":[[6,\"button\"],[3,\"action\",[[19,0,[]],\"handleClick\"]],[7],[0,\"change\"],[8],[0,\"\\nProperty: \"],[1,[18,\"one\"],false],[0,\"\\nAliased property: \"],[1,[18,\"two\"],false],[0,\"\\nobserves property \"],[1,[18,\"three\"],false]],\"hasEval\":false}", "meta": { "moduleName": "ember-decorator-demo2/templates/index.hbs" } });
 });
 
 
@@ -462,6 +462,6 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("ember-decorator-demo2/app")["default"].create({"name":"ember-decorator-demo2","version":"0.0.0+9c6f6606"});
+  require("ember-decorator-demo2/app")["default"].create({"name":"ember-decorator-demo2","version":"0.0.0+3218e43e"});
 }
 //# sourceMappingURL=ember-decorator-demo2.map
