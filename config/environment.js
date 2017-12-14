@@ -1,7 +1,7 @@
 /* eslint-env node */
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-decorator-demo2',
     environment,
@@ -32,6 +32,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
+
   if (environment === 'test') {
     // Testem prefers this...
     ENV.locationType = 'none';
@@ -43,8 +44,9 @@ module.exports = function(environment) {
     ENV.APP.rootElement = '#ember-testing';
   }
 
-  if (environment === 'production') {
+  if (environment === 'docs') {
     // here you can enable a production-specific feature
+    ENV.rootURL = '/chilicoder/ember-decorator-demo2';
   }
 
   return ENV;
